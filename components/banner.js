@@ -1,3 +1,4 @@
+import Trangchu from "../pages/trangchu";
 const Banner = () => {
   return (
     <div className="dau">
@@ -12,7 +13,7 @@ const Banner = () => {
           float: "left",
         }}
       >
-        <a href="">
+        <a href="trangchu">
           <ion-icon
             className="bathanh"
             name="menu"

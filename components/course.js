@@ -1,5 +1,5 @@
 import Link from "next/link";
-import AIlearn from '../pages/learn/ailearn'
+import AIlearn from '../pages/ailearn'
 const Course = ({ name, link }) => {
   return (
     <div className="col-sm-3">
@@ -15,7 +15,7 @@ const Course = ({ name, link }) => {
             {name}
           </a>
           <br />
-          <Link href="/learn/ailearn"><a
+          <Link href="ailearn"><a
             className="read-more text-white"
           >
             ReadMore >>
